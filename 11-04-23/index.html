@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подключение JavaScript</title>
+
+</head>
+
+<body>
+
+
+
+    <script>
+        alert("Hello, World");
+/////////////////////////////////////////////////
+// квадратное уравнение
+  /*      function solveEquation() {
+            //2 12 16
+            //2 4 1
+
+            let discr = Number(b * b - 4 * a * c)
+            let x1 = Number((-b + Math.sqrt(discr)) / 2 * a)
+            let x2 = Number((-b - Math.sqrt(discr)) / 2 * a)
+            //alert(`Result ${b * b - 4 * a * c} and ${x1}; ${x2}`);
+            return `Result ${b * b - 4 * a * c} and ${x1}; ${x2}`
+        }
+
+        let a = Number(prompt('Insert a'));
+        let b = Number(prompt('Insert b'));
+        let c = Number(prompt('Insert c'));
+        alert(solveEquation(a, b, c));
+*/
+///////////////////////////////////////////////////
+        // let userName = prompt('Введите имя: ')
+        // function greeting(userName) { 
+        // alert(`Привет,  ${userName}`);
+        // }
+
+        // greeting(userName);
+///////////////////////////////////////////////////
+    // let ansver = confirm("Вы уверены что хотите выйти?");
+    // if(ansver){
+    //     alert('Как жаль, что вы наконец-то уходите!')
+    // }else{
+    //     alert('Вы всё таки остаётесь...')
+    // }
+
+    let ansver = confirm("Вы уверены что хотите выйти?") ? 'Как жаль, что вы наконец-то уходите!':'Вы всё таки остаётесь...'
+    alert(ansver)
+    </script>
+</body>
+
+</html>
