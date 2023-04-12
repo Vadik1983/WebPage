@@ -10,8 +10,20 @@
 </head>
 
 <body>
-	<h1 style="color: red; background-color: aquamarine;">Всем привет!</h1>
+	<script>
+		let userName = prompt('Введите имя: ')
+		function greeting(userName) {
+            alert(`Привет,  ${userName}`);
+        }
 
+        greeting(userName);
+	</script>
+
+	<h1 style="color: red; background-color: aquamarine;">
+		<script>
+		let myHeading = document.querySelector("h1");
+		myHeading.textContent = "Добро пожаловать на мой сайт, " + userName + "!";
+	</script></h1>
 	<h2>О чём страничка:</h2>
 
 	<p>На этой страничке я расскажу о себе. Каким был и что имею теперь.<br>
@@ -19,7 +31,7 @@
 	</p>
 
 	<h3>Кто я:</h3>
-	<p>Я врач. Работаю таковым больше 15 лет. Это моё первое призвание!<br>
+	<p>Меня зовут Вадим.Я врач. Работаю таковым больше 15 лет. Это моё первое призвание!<br>
 		Вторым призванием оказалось... программирование, которому я сейчас и обучаюсь!
 </p>
 
